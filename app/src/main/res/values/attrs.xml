@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SecurityCode">
+        <attr name="TextSize" format="dimension" />
+        <attr name="TextColor" format="color" />
+        <attr name="TextLength" format="integer" />
+        <attr name="bg" format="color" />
+    </declare-styleable>
+</resources>

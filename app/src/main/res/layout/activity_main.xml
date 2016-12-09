@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/getCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="获取验证码"
+        android:text="显示验证码" />
+
+    <com.gloomyer.securitycode.SecurityCode
+        android:id="@+id/code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        app:TextColor="#a0f00000"
+        app:TextLength="6"
+        app:TextSize="16sp"
+        app:bg="#abcdef" />
+</LinearLayout>
