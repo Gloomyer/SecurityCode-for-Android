@@ -1,7 +1,7 @@
 ## SecurityCode 验证码生成View
-author:Gloomy
-[blog:https://www.gloomyer.com](https://www.gloomyer.com])
-如果发现Bug，欢迎提交.
+author:Gloomy  
+blog:https://www.gloomyer.com  
+如果发现Bug，欢迎提交.  
 
 ## 使用方式
 第一步,拷贝:
